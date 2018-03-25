@@ -30,22 +30,18 @@
 				        </div>
 				        <div class="modal-body">
 					        <p>Click on cubes:</p>
-					        <p>
-					          	<ul class="cubes">
-						          	<li><i class="square green"></i><span><b>+2</b> points</span></li>
-						          	<li><i class="square orange"></i><span><b>+1</b> point</span></li>
-						          	<li><i class="square yellow"></i><span><b>+1</b> point</span></li>
-						          	<li><i class="square red"></i><span><b>-2</b> points</span></li>	
-					            </ul>
-					        </p>
-					        <p>Bonuses:</p>
-					        <p>
-					          	<ul>
-					          		<li><i class="fa fa-bomb"></i>destroys all cubes with the color of the bomb and adds <b>+1</b> for each destroyed cube</li>
-					          		<li><i class="fa fa-question-circle-o"></i>adds random amount of points from <b>-3</b> to <b>3</b></li>
-					          		<li><i class="fa fa-hourglass-start"></i>adds <b>+5</b> seconds for current time</li>
-					          	</ul>
-					        </p>
+					        <ul class="cubes">
+						        <li><i class="square green"></i><span><b>+2</b> points</span></li>
+						        <li><i class="square orange"></i><span><b>+1</b> point</span></li>
+						        <li><i class="square yellow"></i><span><b>+1</b> point</span></li>
+						        <li><i class="square red"></i><span><b>-2</b> points</span></li>
+						    </ul>
+					        <p>Bonuses:</p>					        
+					        <ul>
+					          	<li><i class="fa fa-bomb"></i>destroys all cubes with the color of the bomb and adds <b>+1</b> for each destroyed cube</li>
+					          	<li><i class="fa fa-question-circle-o"></i>adds random amount of points from <b>-3</b> to <b>3</b></li>
+					          	<li><i class="fa fa-hourglass-start"></i>adds <b>+5</b> seconds for current time</li>
+					        </ul>
 				        </div>
 				        <div class="modal-footer">
 				            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -84,10 +80,10 @@
 				          <button type="button" class="close" data-dismiss="modal">&times;</button>
 				          <h4 class="modal-title">Round over</h4>
 				        </div>
-				        <form role="form">
+				        <form>
 					        <div class="modal-body">
 					          <p>Your points: <span id="points"></span></p>
-					          <input type="text" class="form-control top-buffer-sm" placeholder="Username" name="username" autofocus></input>
+					          <input type="text" class="form-control top-buffer-sm" placeholder="Username" name="username" autofocus>
 					        </div>
 					        <div class="modal-footer">
 					          <button  class="btn btn-default" type="submit">Save</button>
