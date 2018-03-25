@@ -1,0 +1,160 @@
+body {
+  font: 20px  sans-serif;
+  line-height: 1.8;   
+}
+/*header*/
+.navbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+.navbar-header{
+  padding-top: 5px;
+  font-size: 18px;
+}
+.navbar-nav  li a:hover {
+  cursor: pointer;
+  color: black !important;
+}
+/*модальное окно для правил*/
+.rulesModal ul{
+  list-style: none;
+}
+.rulesModal ul li{
+  padding-bottom: 10px;
+  display: block;  
+}
+.rulesModal ul i{
+  margin-right: 10px;
+}
+.rulesModal ul .fa{
+  font-size: 22px;
+}
+.rulesModal ul li span{
+  float: left;
+}
+.rulesModal .cubes li{
+  height: 40px;
+} 
+.rulesModal .square{
+  float: left;
+  width: 20px;
+  height: 20px;
+}
+.rulesModal .square.red{
+  background: red;
+}
+.rulesModal .square.green{
+  background: green;
+}
+.rulesModal .square.orange{
+  background: orange;
+}
+.rulesModal .square.yellow{
+  background: yellow;
+}
+/*кнопки управления, таймер времени, поле очков*/
+.control-block{
+  padding-top: 20px;
+}
+.control-block button{
+  margin-right: 10px;
+}
+.control-buttons{
+  display: inline-block;
+}
+.timer, .counter {
+  margin-right: 5px;
+  display: inline-block;
+  color: black;
+  font-size: 16px;
+  padding: 2px 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 0px;
+}
+.indicators-wrap{
+   float: right;
+   margin-left: 20px;
+}
+.indicators-wrap .sign{
+  font-size: 14px;
+  color:grey;
+}
+/*игровое поле*/
+.game-area table, .game-area td, .game-area th {
+  border: 1px solid rgba(128, 128, 128, 0.18);;
+}
+.game-area{
+  border-collapse: collapse;
+}
+.game-area td {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  vertical-align: bottom;
+  line-height: 0;
+}
+.game-area .fa {
+  font-size: 23px;
+  width: 100%;
+  height: 100%;
+  line-height: 39px;
+}
+.game-area td.active:hover{
+  cursor:pointer;
+}
+.results-table, .game-area{
+  margin-top: 20px;
+  border:2px solid rgba(128, 128, 128, 0.5);
+} 
+/*форма результата*/
+input.error {
+  border: 1px solid red;
+  color: red;
+}
+/*таблица результата*/
+.points-table{
+  width: 100%;
+}
+.table-wrapper {
+  position:relative;
+}
+.table-scroll {
+  height:380px;
+  overflow:auto;  
+  margin-top:5px;
+}
+.points-table tr th{
+  padding-bottom: 5px;
+  border-bottom: 1px solid grey;
+  font-size: 16px;
+}
+.points-table tr {
+  border-bottom: 1px solid #dbd5d5;
+}
+.points-table tr:nth-child(even){
+  background:#f8f8f8;
+}
+.points-table tr td{
+  padding: 10px 5px;
+  font-size: 16px;
+}
+.points-table tr:last-of-type{
+  border-bottom: none;
+}
+.points-table caption{
+  text-align: center;
+  font-size: 24px;
+}
+.no-results{
+  display: none;
+}
+.result-header{
+  margin-top: 5px;
+  font-size: 22px;
+}
