@@ -1,6 +1,6 @@
 body {
-  font: 20px  sans-serif;
-  line-height: 1.8;   
+  font: 20px sans-serif;
+  line-height: 1.8;
 }
 /*header*/
 .navbar {
@@ -12,62 +12,63 @@ body {
   font-size: 14px;
   letter-spacing: 3px;
 }
-.navbar-header{
+.navbar-header {
   padding-top: 5px;
   font-size: 18px;
 }
-.navbar-nav  li a:hover {
+.navbar-nav li a:hover {
   cursor: pointer;
   color: black !important;
 }
 /*модальное окно для правил*/
-.rulesModal ul{
+.rulesModal ul {
   list-style: none;
 }
-.rulesModal ul li{
+.rulesModal ul li {
   padding-bottom: 10px;
-  display: block;  
+  display: block;
 }
-.rulesModal ul i{
+.rulesModal ul i {
   margin-right: 10px;
 }
-.rulesModal ul .fa{
+.rulesModal ul .fa {
   font-size: 22px;
 }
-.rulesModal ul li span{
+.rulesModal ul li span {
   float: left;
 }
-.rulesModal .cubes li{
+.rulesModal .cubes li {
   height: 40px;
-} 
-.rulesModal .square{
+}
+.rulesModal .square {
   float: left;
   width: 20px;
   height: 20px;
 }
-.rulesModal .square.red{
+.rulesModal .square.red {
   background: red;
 }
-.rulesModal .square.green{
+.rulesModal .square.green {
   background: green;
 }
-.rulesModal .square.orange{
+.rulesModal .square.orange {
   background: orange;
 }
-.rulesModal .square.yellow{
+.rulesModal .square.yellow {
   background: yellow;
 }
 /*кнопки управления, таймер времени, поле очков*/
-.control-block{
+.control-block {
   padding-top: 20px;
 }
-.control-block button{
+.control-block button {
   margin-right: 10px;
 }
-.control-buttons{
+.control-buttons {
   display: inline-block;
 }
-.timer, .counter {
+.timer,
+.counter {
   margin-right: 5px;
   display: inline-block;
   color: black;
@@ -77,19 +78,21 @@ body {
   border-radius: 4px;
   margin-top: 0px;
 }
-.indicators-wrap{
-   float: right;
-   margin-left: 20px;
+.indicators-wrap {
+  float: right;
+  margin-left: 20px;
 }
-.indicators-wrap .sign{
+.indicators-wrap .sign {
   font-size: 14px;
-  color:grey;
+  color: grey;
 }
 /*игровое поле*/
-.game-area table, .game-area td, .game-area th {
-  border: 1px solid rgba(128, 128, 128, 0.18);;
+.game-area table,
+.game-area td,
+.game-area th {
+  border: 1px solid rgba(128, 128, 128, 0.18);
 }
-.game-area{
+.game-area {
   border-collapse: collapse;
 }
 .game-area td {
@@ -105,31 +108,32 @@ body {
   height: 100%;
   line-height: 39px;
 }
-.game-area td.active:hover{
-  cursor:pointer;
+.game-area td.active:hover {
+  cursor: pointer;
 }
-.results-table, .game-area{
+.results-table,
+.game-area {
   margin-top: 20px;
-  border:2px solid rgba(128, 128, 128, 0.5);
-} 
+  border: 2px solid rgba(128, 128, 128, 0.5);
+}
 /*форма результата*/
 input.error {
   border: 1px solid red;
   color: red;
 }
 /*таблица результата*/
-.points-table{
+.points-table {
   width: 100%;
 }
 .table-wrapper {
-  position:relative;
+  position: relative;
 }
 .table-scroll {
-  height:380px;
-  overflow:auto;  
-  margin-top:5px;
+  height: 380px;
+  overflow: auto;
+  margin-top: 5px;
 }
-.points-table tr th{
+.points-table tr th {
   padding-bottom: 5px;
   border-bottom: 1px solid grey;
   font-size: 16px;
@@ -137,24 +141,24 @@ input.error {
 .points-table tr {
   border-bottom: 1px solid #dbd5d5;
 }
-.points-table tr:nth-child(even){
-  background:#f8f8f8;
+.points-table tr:nth-child(even) {
+  background: #f8f8f8;
 }
-.points-table tr td{
+.points-table tr td {
   padding: 10px 5px;
   font-size: 16px;
 }
-.points-table tr:last-of-type{
+.points-table tr:last-of-type {
   border-bottom: none;
 }
-.points-table caption{
+.points-table caption {
   text-align: center;
   font-size: 24px;
 }
-.no-results{
+.no-results {
   display: none;
 }
-.result-header{
+.result-header {
   margin-top: 5px;
   font-size: 22px;
 }
